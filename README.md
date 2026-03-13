@@ -56,11 +56,3 @@ python recognize.py
 * A new window will open showing your webcam feed.
 * If everything is set up correctly, you will see a green box around your face showing your name and the match percentage.
 * Press the **ESC** key on your keyboard to close the window and exit the program.
-
-## 🛑 Troubleshooting
-
-* **Error: `cv2.face` module not found:** Make sure you installed `opencv-contrib-python` and not just `opencv-python`.
-* **Error: `trainer.yml` not found:** You need to run `train_model.py` before running the recognition script.
-* **Camera not opening:** Check if another application (like Zoom or Teams) is currently using your webcam.
-
-```
